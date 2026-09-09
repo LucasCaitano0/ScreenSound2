@@ -3,6 +3,7 @@ musica1.nome = "Fogueira";
 musica1.artista = "Jorge e Mateus";
 musica1.duracao = 275;
 musica1.disponivel = true;
+Console.WriteLine();
 
 Musica musica2 = new Musica();
 musica2.nome = "Duas Vidas";
