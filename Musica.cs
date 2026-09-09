@@ -10,7 +10,7 @@
 
     public void EscreverDisponivel(bool value)
     {
-        disponivel = value;
+        Disponivel = value;
     }
 
     public void ExibirFichaTecnica()
@@ -18,6 +18,7 @@
         Console.WriteLine($"Nome da música: {Nome}");
         Console.WriteLine($"Artista da música: {Artista}");
         Console.WriteLine($"Duração da música: {Duracao} segundos");
+
         Console.WriteLine(DescricaoResumida);
         if (Disponivel)
         {
