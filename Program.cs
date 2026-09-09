@@ -1,9 +1,12 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "Fogueira";
-musica1.artista = "Jorge e Mateus";
-musica1.duracao = 275;
-musica1.disponivel = true;
+﻿Album albumMatue = new Album();
+albumMatue.Nome = "XTRANHO";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Rei tuê";
 
 Musica musica2 = new Musica();
-musica2.nome = "Duas Vidas";
-musica2.artista = "Henrique e Juliano";
+musica2.Nome = "Backstage";
+
+albumMatue.AdicionarMusica(musica1);
+albumMatue.AdicionarMusica(musica2);
+
