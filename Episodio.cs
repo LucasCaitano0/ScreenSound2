@@ -13,6 +13,8 @@
     public int Duracao { get; }
     public string Resumo => $"{Ordem}. {Titulo} ({Duracao} minutos) - Convidados: {string.Join(", ", convidados)}";
 
+    
+
     public void AdicionarConvidado(string convidado)
     {
         convidados.Add(convidado);
